@@ -5,7 +5,7 @@ import os
 
 #this is a simple pdf downloader script written in python by DHIRAJ
 
-url = "https://www.aspirestudy.in/notifications/nimcet/nimcetmaterial.php"
+url = input("Enter the url of webpage tha contains pdfs : ")
 
 response = requests.get(url)
 response.raise_for_status()
